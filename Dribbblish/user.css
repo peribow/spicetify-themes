@@ -43,6 +43,13 @@ div#popover-container::before {
     font-weight: 500;
 }
 
+@font-face {
+	font-family: "IM Fell";
+	src: url("https://local_resource_host/fonts/fegpsc2.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 400;
+}
+
 body {
 	--glue-font-family: "Google Sans Display", "spotify-circular", "Noto Sans CJK JP Bold", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
 	--info-font-family: "Roboto", "spotify-circular", "Noto Sans CJK JP Thin", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
